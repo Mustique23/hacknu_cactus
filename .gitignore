@@ -32,4 +32,6 @@ env/
 Thumbs.db
 
 # Generated datasets and local outputs
+data/.~lock*
 data/*.csv
+data/*.md

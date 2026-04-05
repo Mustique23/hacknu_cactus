@@ -1,0 +1,65 @@
+============================================================
+SCHEMA OVERVIEW
+============================================================
+Total rows        : 32,264
+Total columns     : 26
+Date range        : 2023-01-02 → 2026-03-04
+
+Column Types:
+  timeline_index                 int64      nulls=0
+  record_id                      str        nulls=0
+  platform                       str        nulls=0
+  source_type                    str        nulls=0
+  source_id                      str        nulls=0
+  title                          str        nulls=0
+  body_text                      str        nulls=0
+  creator_name                   str        nulls=0
+  community_name                 str        nulls=0
+  published_at                   str        nulls=0
+  published_date                 datetime64[us] nulls=0
+  published_year_month           str        nulls=0
+  url                            str        nulls=0
+  search_context                 str        nulls=0
+  matched_topics                 str        nulls=0
+  content_format                 str        nulls=0
+  tags                           str        nulls=30,765
+  views                          float64    nulls=30,765
+  likes                          float64    nulls=30,765
+  comments                       float64    nulls=21,952
+  score                          float64    nulls=1,499
+  engagement_total               int64      nulls=0
+  engagement_rate                float64    nulls=30,765
+  quality_tier                   str        nulls=0
+  quality_notes                  str        nulls=5,427
+  full_text                      str        nulls=0
+
+Platform Distribution:
+  reddit          30,765  (95.4%)
+  youtube          1,499  (4.6%)
+
+Quality Tier Distribution:
+  standard             26,680  (82.7%)
+  high                  5,584  (17.3%)
+
+Content Format Distribution:
+  comment              21,952  (68.0%)
+  self_post             6,476  (20.1%)
+  link_post             2,337  (7.2%)
+  short                 1,492  (4.6%)
+  medium                    5  (0.0%)
+  long                      2  (0.0%)
+
+Engagement Stats (engagement_total):
+  count         32264.0
+  mean             30.5
+  std             275.9
+  min             -83.0
+  25%               1.0
+  50%               2.0
+  75%               9.0
+  max           31929.0
+
+Data Quality Flags:
+  Null body_text            : 1,028
+  Zero engagement posts     : 2,869
+  High-quality tier posts   : 5,584

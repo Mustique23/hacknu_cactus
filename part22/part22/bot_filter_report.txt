@@ -1,0 +1,31 @@
+============================================================
+  BOT & SLOP FILTER — AUDIT TRAIL
+============================================================
+Initial dataset: 32,264 rows
+
+  [F1] Remove YouTube stubs (no body text): removed 1,499 rows  (remaining: 30,765)
+  [F2] Remove zero-engagement posts (no social proof): removed 1,401 rows  (remaining: 29,364)
+  [F3] Remove completely empty content rows: removed 0 rows  (remaining: 29,364)
+  [F4] Remove AI-generated slop ('as an AI', 'I am an AI', etc.): removed 32 rows  (remaining: 29,332)
+  [F5] Remove generic AI news digest/aggregator posts: removed 2 rows  (remaining: 29,330)
+  [F6] Remove bot accounts posting >50x/day (0 found): removed 0 rows  (remaining: 29,330)
+  [F7] Remove low-engagement general_subreddit comments (<3 engagement): removed 7,025 rows  (remaining: 22,305)
+
+============================================================
+  FILTER SUMMARY
+============================================================
+  Initial rows  : 32,264
+  Removed rows  : 9,959  (30.9%)
+  Clean corpus  : 22,305  (69.1% retained)
+
+  Platform breakdown (clean corpus):
+    reddit          22,305
+
+  Quality tier (clean corpus):
+    standard             16,742
+    high                  5,563
+
+  Content format (clean corpus):
+    comment              13,725
+    self_post             6,335
+    link_post             2,245
