@@ -2,6 +2,24 @@
 
 This project scrapes Reddit posts/comments and YouTube videos mentioning Anthropic and Claude-related products, cleans the Reddit dataset, and merges both sources into a timeline CSV.
 
+# Higgsfield Growth Intelligence: The Counter-Playbook 🌵📈
+
+**Awarded 4th Place at HackNU 2026 (Higgsfield Growth Management Track)**
+
+Этот проект — полностью автоматизированная система интеллектуального анализа для команды роста Higgsfield. [cite_start]Мы проанализировали датасет из **22,305 постов** из Reddit и YouTube, чтобы дешифровать стратегию роста Anthropic (Claude) и адаптировать её для Higgsfield[cite: 268, 274, 276].
+
+## 🧠 Ключевые инсайты (The Growth Pillars)
+
+Мы выделили три столпа «Контр-стратегии», основанных на данных:
+1. [cite_start]**Velocity Moat (Окно возможностей):** Отслеживание моментов, когда конкуренты (OpenAI, Runway) сталкиваются с техническими сбоями или цензурой, для мгновенного захвата «беженцев»[cite: 291, 292, 293, 294].
+2. [cite_start]**TTV Alpha (Time-to-Value):** Доказано, что посты, сфокусированные на скорости создания контента, приносят в **1.7 раза больше охвата**, чем посты о качестве[cite: 295, 296, 297].
+3. [cite_start]**Artifacts Loop (Вирусные шаблоны):** Создание ремиксируемых шаблонов (Cinema Studio Motion Templates), которые превращают пользователей в распространителей продукта (engagement lift x1.5)[cite: 300, 301, 302, 502, 503].
+
+## 🛠 Технологический стек
+* [cite_start]**Data Mining:** Python, Reddit PRAW, YouTube Data API v3[cite: 282, 284, 320, 323].
+* [cite_start]**Automation:** Weekly Pipeline с системой «Watcher» для симуляции и обработки данных в реальном времени[cite: 312, 313, 314, 327, 328].
+* [cite_start]**Analytics:** 7-этапная фильтрация ботов и шума для получения 100% человеческого сентимента[cite: 279, 281, 283].
+
 ## What it collects
 
 The scraper combines:
